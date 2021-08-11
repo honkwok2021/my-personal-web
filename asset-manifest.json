@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/my-personal-web/static/css/main.42288fc3.chunk.css",
+    "main.css": "/my-personal-web/static/css/main.0ff52b75.chunk.css",
     "main.js": "/my-personal-web/static/js/main.e9e7d2a8.chunk.js",
     "main.js.map": "/my-personal-web/static/js/main.e9e7d2a8.chunk.js.map",
     "runtime-main.js": "/my-personal-web/static/js/runtime-main.7bacfd5c.js",
@@ -12,7 +12,7 @@
     "static/js/3.b5d6d8f9.chunk.js.map": "/my-personal-web/static/js/3.b5d6d8f9.chunk.js.map",
     "index.html": "/my-personal-web/index.html",
     "static/css/2.4be38407.chunk.css.map": "/my-personal-web/static/css/2.4be38407.chunk.css.map",
-    "static/css/main.42288fc3.chunk.css.map": "/my-personal-web/static/css/main.42288fc3.chunk.css.map",
+    "static/css/main.0ff52b75.chunk.css.map": "/my-personal-web/static/css/main.0ff52b75.chunk.css.map",
     "static/js/2.4d50d647.chunk.js.LICENSE.txt": "/my-personal-web/static/js/2.4d50d647.chunk.js.LICENSE.txt",
     "static/media/headerStyle.css": "/my-personal-web/static/media/Capture.200a2a2d.PNG",
     "static/media/Honwebsiteimg.0c412f3b.PNG": "/my-personal-web/static/media/Honwebsiteimg.0c412f3b.PNG",
@@ -27,7 +27,7 @@
     "static/js/runtime-main.7bacfd5c.js",
     "static/css/2.4be38407.chunk.css",
     "static/js/2.4d50d647.chunk.js",
-    "static/css/main.42288fc3.chunk.css",
+    "static/css/main.0ff52b75.chunk.css",
     "static/js/main.e9e7d2a8.chunk.js"
   ]
 }
