@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/my-personal-web/static/css/main.0ff52b75.chunk.css",
-    "main.js": "/my-personal-web/static/js/main.e9e7d2a8.chunk.js",
-    "main.js.map": "/my-personal-web/static/js/main.e9e7d2a8.chunk.js.map",
+    "main.css": "/my-personal-web/static/css/main.e86ba05f.chunk.css",
+    "main.js": "/my-personal-web/static/js/main.e9f42a37.chunk.js",
+    "main.js.map": "/my-personal-web/static/js/main.e9f42a37.chunk.js.map",
     "runtime-main.js": "/my-personal-web/static/js/runtime-main.7bacfd5c.js",
     "runtime-main.js.map": "/my-personal-web/static/js/runtime-main.7bacfd5c.js.map",
     "static/css/2.4be38407.chunk.css": "/my-personal-web/static/css/2.4be38407.chunk.css",
@@ -12,22 +12,22 @@
     "static/js/3.b5d6d8f9.chunk.js.map": "/my-personal-web/static/js/3.b5d6d8f9.chunk.js.map",
     "index.html": "/my-personal-web/index.html",
     "static/css/2.4be38407.chunk.css.map": "/my-personal-web/static/css/2.4be38407.chunk.css.map",
-    "static/css/main.0ff52b75.chunk.css.map": "/my-personal-web/static/css/main.0ff52b75.chunk.css.map",
+    "static/css/main.e86ba05f.chunk.css.map": "/my-personal-web/static/css/main.e86ba05f.chunk.css.map",
     "static/js/2.4d50d647.chunk.js.LICENSE.txt": "/my-personal-web/static/js/2.4d50d647.chunk.js.LICENSE.txt",
-    "static/media/headerStyle.css": "/my-personal-web/static/media/Capture.200a2a2d.PNG",
     "static/media/Honwebsiteimg.0c412f3b.PNG": "/my-personal-web/static/media/Honwebsiteimg.0c412f3b.PNG",
+    "static/media/headerStyle.css": "/my-personal-web/static/media/IMG_2353.ba9e3df0.jpg",
+    "static/media/App.css": "/my-personal-web/static/media/IMG_8630.0447f156.jpg",
     "static/media/Icon2.d6266f7c.png": "/my-personal-web/static/media/Icon2.d6266f7c.png",
     "static/media/SimpleMembership.5c2e6d18.PNG": "/my-personal-web/static/media/SimpleMembership.5c2e6d18.PNG",
     "static/media/holiday-apartment.8de24977.PNG": "/my-personal-web/static/media/holiday-apartment.8de24977.PNG",
     "static/media/logo.6ce24c58.svg": "/my-personal-web/static/media/logo.6ce24c58.svg",
-    "static/media/reactnotetakingimg.7006287b.PNG": "/my-personal-web/static/media/reactnotetakingimg.7006287b.PNG",
-    "static/media/App.css": "/my-personal-web/static/media/v617batch2-kul-05-technology.094d26c3.jpg"
+    "static/media/reactnotetakingimg.7006287b.PNG": "/my-personal-web/static/media/reactnotetakingimg.7006287b.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.7bacfd5c.js",
     "static/css/2.4be38407.chunk.css",
     "static/js/2.4d50d647.chunk.js",
-    "static/css/main.0ff52b75.chunk.css",
-    "static/js/main.e9e7d2a8.chunk.js"
+    "static/css/main.e86ba05f.chunk.css",
+    "static/js/main.e9f42a37.chunk.js"
   ]
 }
