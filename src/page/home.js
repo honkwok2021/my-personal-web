@@ -14,7 +14,7 @@ export function Home(){
                     <Col >
                     
                     </Col>
-                    <Col md={10} className="intro typewriter p-3 rounded" style={{marginTop:"15%"}}>
+                    <Col md={10} className="intro typewriter p-3 rounded" style={{marginTop:"10%"}}>
                         <div className="justify-content-centre " >
                             <img src={honimg} alt=" " width="200px" />
                             
