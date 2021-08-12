@@ -1,0 +1,37 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    background-color: lightgrey;
+    opacity:0.8;
+    color:rgba(0, 0, 128, 0.726);
+    border: black solid 1px;
+    padding:10px;
+    gap:10px;
+    border-bottom: 2px solid;
+    
+  }
+  
+  /* Responsive layout - makes a one column layout instead of a two-column layout */
+  @media (max-width: 600px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+
+  .edu-flex-container{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-bottom: 2px solid;
+    gap:15px;
+    /**border: solid 1px;
+    padding:12px;
+    
+    **/
+  }
+  
+  @media (max-width: 600px) {
+    .edu-flex-container {
+      flex-direction: column;
+    }
+  }
