@@ -1,10 +1,18 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
+import { ThemeColor } from '../App';
 
 
 export function ProjectPart({projectName, projectDescription, projectImage, githubLink, website}){
-    
+    const theme = useContext(ThemeColor)
+    const projectStyle={
+        width: '18rem',
+        marginTop:'8%',
+        padding:'5px',
+        backgroundColor: theme? "rgba(255,255,255, 0.8)": "rgba(0,0,0, 0.8)",
+        color: theme? "black" : "white"
+    }
 
     function checkNull(){
         if(website == null){
@@ -12,7 +20,7 @@ export function ProjectPart({projectName, projectDescription, projectImage, gith
         }
     }
     return(
-        <Card className="card-flexcontainer" style={{width: '18rem',marginTop:'8%', padding:'5px' }}>
+        <Card className="card-flexcontainer" style={projectStyle}>
             <Card.Img variant="top" src={projectImage} />
             <Card.Body>
                 <Card.Title>{projectName}</Card.Title>

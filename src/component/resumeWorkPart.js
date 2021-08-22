@@ -1,13 +1,17 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { ThemeColor } from '../App';
 import './resumeStyle.css'
 
 
 export function ResumeWorkPart({ company, title, year, descriptionOne, descriptionTwo, descriptionThree}){
-    
+    const theme = useContext(ThemeColor);
+    const heading ={
+        color:theme?"rgba(0, 0, 128, 0.726)" : "black"
+    }
     const textStyle={
         textAlign: 'left',
         backgroundColor:"white",
-        color: "black",
+        color:theme? "black" : "rgba(0, 0, 128, 0.726)",
         padding:'5px',
         opacity:"0.9",
         margin:"0px 0px 0px",
@@ -16,7 +20,7 @@ export function ResumeWorkPart({ company, title, year, descriptionOne, descripti
     }
     return(
         <div>
-            <div className="flex-container" >
+            <div className="flex-container" style={heading} >
                 <h5>{title}</h5>
                 <span>{company}</span>
                 <br/>

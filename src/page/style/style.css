@@ -1,6 +1,7 @@
 
 h2{
     color: aliceblue;
+    
 }
 
 a{
@@ -9,10 +10,12 @@ a{
     align-items: center;
     text-decoration: none;
     color: rgba(35, 145, 77, 0.664);
+    
 }
 
 .intro {
   background-color: rgba(240, 255, 255, 0.637);
+  
 }
 
 .typewriter h2 {

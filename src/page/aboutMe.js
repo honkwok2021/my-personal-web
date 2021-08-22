@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import {ResumePart, ResumeWorkPart } from '../component/index';
 import './style/style.css'
@@ -10,6 +10,7 @@ import reactimg from '../img/icons8-react-40.png'
 import csharpimg from '../img/icons8-c-sharp-logo-50.png'
 import dotnetcoreimg from '../img/NET_Core_Logo.png'
 import sqlimg from '../img/icons8-sql-48.png'
+import { ThemeColor } from '../App';
 
 export function AboutMe(){
     const picture = [
@@ -22,12 +23,20 @@ export function AboutMe(){
         {key: 7,src: [dotnetcoreimg]},
         {key: 8,src: [sqlimg]}
     ];
-    
+    const theme = useContext(ThemeColor);
+    const backgroundColor = {
+        backgroundColor: theme? "rgba(240, 255, 255, 0.637)" : "rgba(138, 133, 133, 0.637)",
+        color: theme? "white" : "black",
+        
+    }
+    const heading={
+        color: theme? "grey" : "aliceblue",
+    }
     
     return(
         
-        <div>
-            <Container className="py-5" fluid="md">
+        <div  style={backgroundColor}>
+            <Container className="py-5 " fluid="md" >
                 
                 <Row className="border rounded bg-secondary p-2" >
                     <h2>Education</h2>

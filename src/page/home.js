@@ -1,12 +1,19 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import './style/style.css'
 import linkedin from '../img/icons8-linkedin-96.png'
 import githubimg from '../img/icons8-github-96.png'
 import emailimg from '../img/icons8-mail-96.png'
 import honimg from '../img/Icon2.png'
+import { ThemeColor } from '../App';
 
 export function Home(){
+    const theme = useContext(ThemeColor);
+    const backgroundColor = {
+        backgroundColor: theme? "rgba(240, 255, 255, 0.637)" : "rgba(138, 133, 133, 0.637)",
+        color: theme? "black" : "white",
+        marginTop:"10%"
+    }
     return(
         <div>
             <Container fluid="md">
@@ -14,7 +21,8 @@ export function Home(){
                     <Col >
                     
                     </Col>
-                    <Col md={10} className="intro typewriter p-3 rounded" style={{marginTop:"10%"}}>
+                    <Col md={10} className="intro typewriter p-3 rounded" style={backgroundColor}>
+                        
                         <div className="justify-content-centre " >
                             <img src={honimg} alt=" " width="200px" />
                             

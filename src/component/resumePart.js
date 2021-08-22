@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { ThemeColor } from '../App'
 import './resumeStyle.css'
 
 
 export function ResumePart({logo, info, institution, year, description}){
+    const theme = useContext(ThemeColor)
     const generalStyle={
-        backgroundColor: "white",    
+        backgroundColor: "white",
+        color:theme? "navy" : "brown",    
         padding:"12px",
         gap:"15px",
         border: "solid 1px",
