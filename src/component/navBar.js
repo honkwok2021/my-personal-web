@@ -28,7 +28,7 @@ export function NavigationBar({color, setColor}){
                 
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
-                <Nav className="me-auto text-white" navbarScroll>
+                <Nav className="me-auto text-white " navbarScroll>
                     <Nav.Link href="/my-personal-web/#/" className="text-white">Home</Nav.Link>
                     <Nav.Link href="/my-personal-web/#/aboutMe" className="text-white">About me</Nav.Link>
                     <Nav.Link href="/my-personal-web/#/project" className="text-white">Project</Nav.Link>
