@@ -8,7 +8,7 @@ export function ProjectPart({projectName, projectDescription, projectImage, gith
     const theme = useContext(ThemeColor)
     const projectStyle={
         width: '18rem',
-        marginTop:'8%',
+        marginTop:'5%',
         padding:'5px',
         backgroundColor: theme? "rgba(255,255,255, 0.8)": "rgba(0,0,0, 0.8)",
         color: theme? "black" : "white"

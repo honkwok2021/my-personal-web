@@ -5,6 +5,7 @@ import reactnoteimg from "../img/reactnotetakingimg.PNG"
 import honimg from "../img/Honwebsiteimg.PNG"
 import membership from "../img/SimpleMembership.PNG"
 import holidayapt from "../img/holiday-apartment.PNG"
+import expenseTracker from "../img/expenseTracker.PNG"
 import './style/style.css'
 
 export function ProjectPage(){
@@ -49,10 +50,21 @@ export function ProjectPage(){
                         />
 
                         <ProjectPart
-                        projectName="more is coming"
-                        projectDescription="more is coming"
-                        githubLink="more later"
-                        website="more later"
+                            projectImage={expenseTracker}
+                            projectName="Expense Tracker"
+                            projectDescription="A JavaScript application to track your expense with plugin to allow exporting data to Excel"
+                            githubLink="https://github.com/honkwok2021/ExpenseTracker"
+                            website="https://honkwok2021.github.io/ExpenseTracker/"
+                        />
+
+                        
+                    </Col>
+                    <Col className="project-flexcontainer" style={{display:'flex',flexDirection: '',padding:"15px", gap:'20px'}}>
+                        <ProjectPart
+                            projectName="more is coming"
+                            projectDescription="more is coming"
+                            githubLink="more later"
+                            website="more later"
                         />
                     </Col>
                 </Row>
