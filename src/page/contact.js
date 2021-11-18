@@ -15,7 +15,7 @@ export function Contact(){
                 <Row>
                     
                     <Col className="d-grid gap-5 justify-content-centre"> 
-                        <ContactPart title ="PHONE" info="+61 426262212" logo={phone} />
+                        
                         <ContactPart title ="EMAIL" info="honpankwok@gmail.com" logo={email}/>
                         <ContactPart title ="ADDRESS" info="Wolli Creek NSW 2205" logo={address}/>
                     </Col>
